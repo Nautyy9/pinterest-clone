@@ -1,6 +1,7 @@
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  darkMode: false, // or 'media' or 'class'
+  
+  daisyui: {
   theme: {
     extend: {
       margin: {
@@ -60,6 +61,7 @@ module.exports = {
             transform: 'translateX(0px)',
           },
         },
+      },
 
         'slide-fwd': {
           '0%': {
